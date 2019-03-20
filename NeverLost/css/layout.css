@@ -51,10 +51,38 @@ body {
     background-color: #4daf7c;
 }
 
+
+.menu-link-selecionado {   
+    background-color: #4daf7c;
+    border-top: 1px solid #333;
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: .5em 1em;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+
 .menu-item-selecionado {    
     background-color: #4daf7c;
     border-top: 1px solid #333;
 }
+
+.menu-item-escondido {    
+    list-style:none;
+    position:relative;
+    display:none ; 
+    padding: 0em 1em;
+}
+
+.menu-lista-sub{    
+    position: relative;
+    list-style: none;
+    margin: 0;    
+    padding: 0em 1em;
+}
+
 
 /* MAIN DIV */
 
